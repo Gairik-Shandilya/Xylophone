@@ -16,7 +16,7 @@ class _XylophonenewState extends State<Xylophonenew> {
     return Expanded(
       child: TextButton(
         style: TextButton.styleFrom(
-          backgroundColor: color, // Text Color
+          backgroundColor: color,
         ),
         onPressed: () async {
           await audioPlayer.play(AssetSource("audio/note$soundnumber.wav"));
