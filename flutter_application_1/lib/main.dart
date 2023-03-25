@@ -53,16 +53,3 @@ class _XylophonenewState extends State<Xylophonenew> {
     );
   }
 }
-
-
-//async {
-              // AssetsAudioPlayer.newPlayer().open(
-              //     Audio("assets/note1.wav"),
-              //     showNotification: true,
-              // );
-              /*String audio_asset = "assets/audio/note1.wav";
-                ByteData bytes = await rootBundle.load(audio_asset);
-                Uint8List soundbytes = bytes.buffer
-                    .asUint8List(bytes.offsetInBytes, bytes.lengthInBytes);
-                AudioPlayer().playBytes(soundbytes);*/
-              //},
